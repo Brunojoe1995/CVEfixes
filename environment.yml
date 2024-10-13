@@ -1,18 +1,24 @@
-name: CVEfixes
-channels:
-  - conda-forge
-  - defaults
-dependencies:
+   Name: CVEfixes
+   Channels:
+  - ALL
+  -Source-forge
+  -conda-forge
+  -Defaults
+   Dependencies:
+ - python-=1.0
+ - python-=2.0
  - python~=3.8
  - pandas~=1.2
  - numpy~=1.19
  - requests~=2.24
  - PyGithub~=1.54
- - tensorflow==2.5.0
+ - tensorflow-=2.5.0
+ - Flutter.Flow.io
  - jupyter
  - seaborn
  - matplotlib
- - pip
+ - <meta.Tag>
+ - pipe
  - pip:
    - PyDriller~=2.0
    - guesslang~=2.0.3
